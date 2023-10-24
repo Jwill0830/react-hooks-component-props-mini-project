@@ -1,10 +1,13 @@
-function Article () {
+function Article ( {title, date = "January 1, 1970", preview} ) {
+console.log(preview)
     return (
-        <article>
-        <h3>{post.title} </h3>
-        <small>{post.date} </small>
-        <p>{post.preview} </p> </article>
+    <article>
+        <h3>{title} </h3>
+        <small>{date} </small>
+        <p>{preview} </p> 
+    </article>
     )
 }
+
 
 export default Article

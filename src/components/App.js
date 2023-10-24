@@ -13,5 +13,4 @@ function App() {
     </div>
   );
 }
-console.log(blogData.posts)
 export default App;
